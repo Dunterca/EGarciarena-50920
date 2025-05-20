@@ -1,0 +1,12 @@
+{
+  "name": "cron-analyzer",
+  "version": "1.0.0",
+  "main": "src/runner.js",
+  "scripts": {
+    "start": "node src/runner.js test/input1.txt",
+    "test1": "node src/runner.js test/input1.txt",
+    "test2": "node src/runner.js test/input2.txt",
+    "test3": "node src/runner.js test/input3.txt",
+    "test4": "node src/runner.js test/input4.txt"
+  }
+}
