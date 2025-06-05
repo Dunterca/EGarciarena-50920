@@ -1,0 +1,5 @@
+Prueba "Login exitoso" {
+    dado usuario "admin".
+    cuando boton es "clickeado".
+    entonces pagina debe contener "bienvenida".
+}

@@ -1,0 +1,5 @@
+Prueba "Login con usuario equivocado" {
+    dado usuario "pepe".
+    cuando boton es "clickeado".
+    entonces pagina debe contener "bienvenida".
+}

@@ -1,0 +1,13 @@
+{
+  "name": "mi-analizador-test-suite",
+  "version": "1.0.0",
+  "type": "module",         
+  "scripts": {
+    "clean": "del /f TestSuite*.js *.interp *.tokens && rmdir /s /q generated",
+    "generate": "npm run clean && java -jar antlr-4.13.2-complete.jar -Dlanguage=JavaScript -visitor -o generated TestSuite.g4",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "antlr4": "^4.13.2"
+  }
+}

@@ -1,0 +1,5 @@
+Prueba "Login fallido" {
+    dado usuario "invitado".
+    cuando boton es "clickeado".
+    entonces pagina debe contener "bienvenida".
+}
